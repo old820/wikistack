@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #272838;
+  color: #989FCE;
+}
+
+a {
+  color: #00B7FF;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25%;
+  padding: 20px;
+  border: 3px;
+}
+
+#author-info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25%;
+  padding: 20px;
+  border: 3px;
+  justify-content: space-between;
+}
+
+#info-submit {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  border-radius: 25%;
+  padding: 20px;
+  border: 3px;
+  justify-content: space-between;
+}
